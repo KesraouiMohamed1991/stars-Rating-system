@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(192, 196, 205);
+    display: grid;
+    place-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(128, 145, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+h1{
+    font-size: 2rem;
+    padding: 2.4rem;
+}
+.star-item{
+    height: 100px;
+    width: 100px;
+}
+
+
+p{
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+span{
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(90, 108, 92);
+    color: aliceblue;
+}
